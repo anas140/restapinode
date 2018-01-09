@@ -13,7 +13,7 @@ router.put('/user/:id', (req, res) => {
     res.send({method: 'PUT'})
 })
 
-router.delete('/users', (req, res) => {
+router.delete('/user/:id', (req, res) => {
     res.send({method: 'DELETE'})
 })
 module.exports = router;
